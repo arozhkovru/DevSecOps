@@ -1,1 +1,1 @@
-This is initial file
+This project contains DevSecOps educatin materials and hands on DecSecOps projects.
