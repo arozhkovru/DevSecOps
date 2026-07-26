@@ -1,0 +1,31 @@
+# Terraform
+# Core Terraform directories
+.terraform/
+
+# Local history templates for logging
+.terraform.lock.hcl
+
+# Local state files (Use a remote backend instead)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Exclude all variable files as they may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control
+# !override.tf
+
+# CLI configuration files
+.terraformrc
+terraform.rc
