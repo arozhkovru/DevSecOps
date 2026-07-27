@@ -1,0 +1,19 @@
+%% https://www.linkedin.com/in/alekseirozhkov/
+%% https://github.com/arozhkovru
+%% All mermaid specifications can be found at https://mermaid.ai/open-source/syntax/flowchart.html
+
+flowchart TD
+    subgraph DMZ
+        VPN[VPN]
+    end
+    
+    subgraph INT
+        DNS[DNS]
+    end
+
+    VPN --- |80, 443| DNS
+
+
+    
+
+
